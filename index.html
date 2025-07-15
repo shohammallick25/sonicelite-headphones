@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shoham Mallick || SonicElite Headphone</title>
 
+    <link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#1a1a1a" />
+
+
     <link rel="shortcut icon" href="images/Sony-WH-1000XM4-B.png" type="image/png">
 
     <meta name="description" content="">
@@ -371,5 +375,16 @@
     
     <!-- custom js -->
     <script src = "script.js"></script>
+
+    <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then(() => console.log("✅ Service Worker Registered"))
+      .catch(err => console.error("Service Worker Error:", err));
+  }
+</script>
+
+    
   </body>
 </html>
