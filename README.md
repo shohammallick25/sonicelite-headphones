@@ -1,4 +1,5 @@
 # SonicElite Headphones 🎧
+<img width="1890" height="898" alt="image" src="https://github.com/user-attachments/assets/fae1e1c6-794f-4991-bd9e-cf6197675749" />
 
 A modern, responsive product landing page for the **Sony WH-1000XM4** wireless noise-canceling headphones, built under the **SonicElite** brand.
 
