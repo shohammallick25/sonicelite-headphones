@@ -1,0 +1,21 @@
+{
+  "name": "SonicElite Headphones",
+  "short_name": "SonicElite",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/Sony-WH-1000XM4-B.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/Sony-WH-1000XM4-B.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
